@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T11:15:18.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pxNxfI78uSRejEt09AcC" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T11:16:51.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Tx2_Tz6HaY76bMHiEb7z" version="22.1.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4289" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4547" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -980,6 +980,9 @@
         </mxCell>
         <mxCell id="axR1MJ5CvX7bmes3ASzt-81" value="iter.value()-&amp;gt;setClipParamter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-2418.91" y="4330" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="axR1MJ5CvX7bmes3ASzt-86" value="每一个region拥有自己独立的QxVolumeMeshElement，其中map与griddata也是独立的（方便多线程处理，但没做...）" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;position2=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2680" y="4260" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

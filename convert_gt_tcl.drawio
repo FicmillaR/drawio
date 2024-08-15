@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="RZydtw0dfkvndmXbP_aF">
-    <mxGraphModel dx="1481" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -178,8 +178,14 @@
         <mxCell id="0vv12LQd-PFsxe46ti_l-17" value="所有规则只在本command内生效" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="0vv12LQd-PFsxe46ti_l-7" vertex="1">
           <mxGeometry x="190" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uP43sitpv32sqw-eTHtt-4" value="手动check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vv12LQd-PFsxe46ti_l-7">
+        <mxCell id="cNcPU8mKWBEDalW7dD-1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0vv12LQd-PFsxe46ti_l-7" source="uP43sitpv32sqw-eTHtt-4" target="cNcPU8mKWBEDalW7dD-1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uP43sitpv32sqw-eTHtt-4" value="手动check" style="rounded=0;whiteSpace=wrap;html=1;" parent="0vv12LQd-PFsxe46ti_l-7" vertex="1">
           <mxGeometry x="20" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cNcPU8mKWBEDalW7dD-1-6" value="在最终产物上warning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0vv12LQd-PFsxe46ti_l-7">
+          <mxGeometry x="150" y="290" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0vv12LQd-PFsxe46ti_l-18" value="白名单" style="rounded=0;whiteSpace=wrap;html=1;" parent="0vv12LQd-PFsxe46ti_l-2" vertex="1">
           <mxGeometry x="20" y="105" width="90" height="30" as="geometry" />
@@ -201,8 +207,14 @@
         <mxCell id="0vv12LQd-PFsxe46ti_l-23" value="全局生效" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="0vv12LQd-PFsxe46ti_l-2" vertex="1">
           <mxGeometry x="490" y="35" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="uP43sitpv32sqw-eTHtt-2" value="手动check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vv12LQd-PFsxe46ti_l-2">
-          <mxGeometry x="20" y="250" width="90" height="30" as="geometry" />
+        <mxCell id="cNcPU8mKWBEDalW7dD-1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0vv12LQd-PFsxe46ti_l-2" source="uP43sitpv32sqw-eTHtt-2" target="cNcPU8mKWBEDalW7dD-1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uP43sitpv32sqw-eTHtt-2" value="手动check" style="rounded=0;whiteSpace=wrap;html=1;" parent="0vv12LQd-PFsxe46ti_l-2" vertex="1">
+          <mxGeometry x="20" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cNcPU8mKWBEDalW7dD-1-4" value="在最终产物上warning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0vv12LQd-PFsxe46ti_l-2">
+          <mxGeometry x="137" y="270" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0vv12LQd-PFsxe46ti_l-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0vv12LQd-PFsxe46ti_l-26" target="0vv12LQd-PFsxe46ti_l-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -260,8 +272,14 @@
         <mxCell id="0vv12LQd-PFsxe46ti_l-72" value="新的 command" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="0vv12LQd-PFsxe46ti_l-50" vertex="1">
           <mxGeometry x="135" y="184" width="130" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="uP43sitpv32sqw-eTHtt-1" value="手动check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vv12LQd-PFsxe46ti_l-50">
+        <mxCell id="cNcPU8mKWBEDalW7dD-1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0vv12LQd-PFsxe46ti_l-50" source="uP43sitpv32sqw-eTHtt-1" target="cNcPU8mKWBEDalW7dD-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uP43sitpv32sqw-eTHtt-1" value="手动check" style="rounded=0;whiteSpace=wrap;html=1;" parent="0vv12LQd-PFsxe46ti_l-50" vertex="1">
           <mxGeometry x="15" y="250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cNcPU8mKWBEDalW7dD-1-2" value="在最终产物上warning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0vv12LQd-PFsxe46ti_l-50">
+          <mxGeometry x="134" y="250" width="106" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

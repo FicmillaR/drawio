@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="DlWN55uscxczcILQR3X1">
-    <mxGraphModel dx="1049" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="719" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,23 +186,56 @@
         <mxCell id="3QEI0isdHMcV-0q7J0ob-3" value="BLK_GROUP" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="430" y="490" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3QEI0isdHMcV-0q7J0ob-4" value="获取cmd的module name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="245" width="130" height="60" as="geometry" />
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QEI0isdHMcV-0q7J0ob-4" target="3QEI0isdHMcV-0q7J0ob-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QEI0isdHMcV-0q7J0ob-4" target="3QEI0isdHMcV-0q7J0ob-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QEI0isdHMcV-0q7J0ob-4" target="3QEI0isdHMcV-0q7J0ob-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-4" value="获取cmd的 module name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="210" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3QEI0isdHMcV-0q7J0ob-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QEI0isdHMcV-0q7J0ob-5" target="3QEI0isdHMcV-0q7J0ob-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3QEI0isdHMcV-0q7J0ob-5" value="按行读取并切词" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="630" y="245" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3QEI0isdHMcV-0q7J0ob-9" value="使用原始文本（默认配置）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="970" y="105" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3QEI0isdHMcV-0q7J0ob-10" value="清除" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="225" width="120" height="60" as="geometry" />
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-10" value="清除文本" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="970" y="175" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3QEI0isdHMcV-0q7J0ob-11" value="执行处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QEI0isdHMcV-0q7J0ob-14" target="3QEI0isdHMcV-0q7J0ob-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QEI0isdHMcV-0q7J0ob-14" target="3QEI0isdHMcV-0q7J0ob-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-14" value="parse&amp;amp;mapping" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="340" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-18" value="coma2whitespace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="235" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-21" value="&lt;div&gt;modify model name&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="325" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-22" value="&lt;div&gt;deal blk group&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="410" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-24" value="部分module的入参不符合tcl规则" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-25" value="etch type=xxx &amp;gt;&amp;gt; etch_xxx" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="290" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3QEI0isdHMcV-0q7J0ob-27" value="部分module的入参不符合tcl规则" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="380" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

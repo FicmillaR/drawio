@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="28.2.4">
   <diagram name="第 1 页" id="zQ5DOcV0YgHfXO1Tq6L7">
-    <mxGraphModel dx="1426" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,7 +117,7 @@
         <mxCell id="tamCuUPaQzQzVOTZNICU-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tamCuUPaQzQzVOTZNICU-36" target="tamCuUPaQzQzVOTZNICU-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tamCuUPaQzQzVOTZNICU-36" value="旧有逻辑" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tamCuUPaQzQzVOTZNICU-36" value="继续函数逻辑" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="505" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tamCuUPaQzQzVOTZNICU-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tamCuUPaQzQzVOTZNICU-40" target="tamCuUPaQzQzVOTZNICU-3">
@@ -126,11 +126,17 @@
         <mxCell id="tamCuUPaQzQzVOTZNICU-40" value="读取gfr文件中tag_group并存入对应Mesh (SetTagGroup)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="90" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tamCuUPaQzQzVOTZNICU-44" value="读取ms中tag_group并存入gfr对应region" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="tamCuUPaQzQzVOTZNICU-44" value="存gfr保存tag_group" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="505" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tamCuUPaQzQzVOTZNICU-46" value="这里如果ms已有tag_group,是否需要继续执行SetTagGroup？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=0;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="200" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tamCuUPaQzQzVOTZNICU-47" value="&lt;span style=&quot;text-align: left;&quot;&gt;IsSupportTagGroup()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="174" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tamCuUPaQzQzVOTZNICU-48" value="&lt;div&gt;读取时直接执行这些逻辑，不需要存 tag_group:&lt;/div&gt;CheckTagGroup(tag_group)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;m = mat_region;&lt;/span&gt;&lt;div&gt;material_name_ = tag_group;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="200" width="170" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

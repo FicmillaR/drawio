@@ -48,7 +48,10 @@
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-45" edge="1" parent="1" source="Da-gFVgNCvxYBOFb2yW9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Da-gFVgNCvxYBOFb2yW9-43" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Da-gFVgNCvxYBOFb2yW9-50" edge="1" parent="1" source="Da-gFVgNCvxYBOFb2yW9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Da-gFVgNCvxYBOFb2yW9-46">
+        <mxCell id="Da-gFVgNCvxYBOFb2yW9-62" edge="1" parent="1" source="Da-gFVgNCvxYBOFb2yW9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Da-gFVgNCvxYBOFb2yW9-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Da-gFVgNCvxYBOFb2yW9-63" edge="1" parent="1" source="Da-gFVgNCvxYBOFb2yW9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Da-gFVgNCvxYBOFb2yW9-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-40" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;rounded=0;" value="init 后 获取dim" vertex="1">
@@ -58,7 +61,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="parse stored tcl" vertex="1">
-          <mxGeometry height="50" width="120" x="480" y="210" as="geometry" />
+          <mxGeometry height="50" width="120" x="480" y="280" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-55" edge="1" parent="1" source="Da-gFVgNCvxYBOFb2yW9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Da-gFVgNCvxYBOFb2yW9-53">
           <mxGeometry relative="1" as="geometry" />
@@ -67,25 +70,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-44" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffff88;strokeColor=#36393d;" value="store(顺序序列化)" vertex="1">
-          <mxGeometry height="35" width="120" x="480" y="340" as="geometry" />
+          <mxGeometry height="35" width="120" x="480" y="410" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-49" edge="1" parent="1" source="Da-gFVgNCvxYBOFb2yW9-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Da-gFVgNCvxYBOFb2yW9-47" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="refinebox tcl" vertex="1">
-          <mxGeometry height="30" width="120" x="640" y="225" as="geometry" />
+          <mxGeometry height="30" width="120" x="640" y="295" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-48" edge="1" parent="1" source="Da-gFVgNCvxYBOFb2yW9-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Da-gFVgNCvxYBOFb2yW9-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="parse (check dim, 总共有约70处逻辑)" vertex="1">
-          <mxGeometry height="50" width="120" x="640" y="280" as="geometry" />
+          <mxGeometry height="50" width="120" x="640" y="350" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-53" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="build mgine refinebox cmd (在调用 mgine时）" vertex="1">
-          <mxGeometry height="60" width="120" x="480" y="400" as="geometry" />
+          <mxGeometry height="60" width="120" x="480" y="470" as="geometry" />
         </mxCell>
         <mxCell id="Da-gFVgNCvxYBOFb2yW9-54" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="change/ delete" vertex="1">
-          <mxGeometry height="30" width="120" x="640" y="430" as="geometry" />
+          <mxGeometry height="30" width="120" x="640" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Da-gFVgNCvxYBOFb2yW9-57" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.08;" value="旧逻辑" vertex="1">
+          <mxGeometry height="80" width="120" x="230" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Da-gFVgNCvxYBOFb2yW9-58" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.08;" value="新逻辑" vertex="1">
+          <mxGeometry height="80" width="120" x="660" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Da-gFVgNCvxYBOFb2yW9-66" edge="1" parent="1" source="Da-gFVgNCvxYBOFb2yW9-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Da-gFVgNCvxYBOFb2yW9-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Da-gFVgNCvxYBOFb2yW9-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="状态变化，不再需要store refinebox tcl" vertex="1">
+          <mxGeometry height="50" width="120" x="640" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

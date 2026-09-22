@@ -106,6 +106,9 @@
         <mxCell id="Oyqhy9SOI9qYh9-NI_7O-86" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#ffff88;strokeColor=#36393d;" value="可以复用pc现有实现？" vertex="1">
           <mxGeometry height="90" width="120" x="460" y="410" as="geometry" />
         </mxCell>
+        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-89" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;tipX=0.917;tipY=-0.167;fillColor=#f8cecc;strokeColor=#b85450;" value="反向映射需要重新总结" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="500" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

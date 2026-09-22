@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Oyqhy9SOI9qYh9-NI_7O-37" parent="1" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" value="gt cmd" vertex="1">
-          <mxGeometry height="65" width="100" x="314" y="80" as="geometry" />
+          <mxGeometry height="65" width="100" x="350" y="100" as="geometry" />
         </mxCell>
         <mxCell id="Oyqhy9SOI9qYh9-NI_7O-56" edge="1" parent="1" source="Oyqhy9SOI9qYh9-NI_7O-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Oyqhy9SOI9qYh9-NI_7O-42">
           <mxGeometry relative="1" as="geometry" />
@@ -22,14 +22,8 @@
         <mxCell id="Oyqhy9SOI9qYh9-NI_7O-38" parent="1" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" value="amps cmd" vertex="1">
           <mxGeometry height="65" width="100" x="50" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-64" edge="1" parent="1" source="Oyqhy9SOI9qYh9-NI_7O-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Oyqhy9SOI9qYh9-NI_7O-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-39" parent="1" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19;dashed=1;strokeColor=#808080;" value="process new gt cmd" vertex="1">
-          <mxGeometry height="65" width="100" x="390" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-40" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.08;fillColor=#ffff88;strokeColor=#36393d;" value="用户不可见" vertex="1">
-          <mxGeometry height="70" width="120" x="480" y="70" as="geometry" />
+        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-40" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;fillColor=#ffff88;strokeColor=#36393d;" value="用户不可见" vertex="1">
+          <mxGeometry height="70" width="120" x="150" y="585" as="geometry" />
         </mxCell>
         <mxCell id="Oyqhy9SOI9qYh9-NI_7O-59" edge="1" parent="1" source="Oyqhy9SOI9qYh9-NI_7O-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Oyqhy9SOI9qYh9-NI_7O-58" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -49,7 +43,7 @@
         <mxCell id="Oyqhy9SOI9qYh9-NI_7O-63" edge="1" parent="1" source="Oyqhy9SOI9qYh9-NI_7O-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Oyqhy9SOI9qYh9-NI_7O-62" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-45" parent="1" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19;fillColor=#d5e8d4;strokeColor=#82b366;" value="new gt cmd" vertex="1">
+        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-45" parent="1" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=1 2;" value="new gt cmd" vertex="1">
           <mxGeometry height="65" width="100" x="272.5" y="600" as="geometry" />
         </mxCell>
         <mxCell id="Oyqhy9SOI9qYh9-NI_7O-60" edge="1" parent="1" source="Oyqhy9SOI9qYh9-NI_7O-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Oyqhy9SOI9qYh9-NI_7O-45">

@@ -97,8 +97,14 @@
         <mxCell id="Oyqhy9SOI9qYh9-NI_7O-80" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="正常退出 销毁 temp gt cmd 等临时产物" vertex="1">
           <mxGeometry height="50" width="120" x="510" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-83" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;现有 geo3d 中 &lt;/font&gt;SyntaxCheck 基本都是直接 return 0 没有实际执行&amp;nbsp;" vertex="1">
-          <mxGeometry height="90" width="120" x="760" y="710" as="geometry" />
+        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-84" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#ffff88;strokeColor=#36393d;" value="可以复用现有preprocess中必须纠正部分" vertex="1">
+          <mxGeometry height="90" width="120" x="200" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-85" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;tipX=-0.667;tipY=-1.125;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;现有 geo3d 中 &lt;/font&gt;SyntaxCheck 基本都是直接 return 0 没有实际执行&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="120" x="660" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Oyqhy9SOI9qYh9-NI_7O-86" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#ffff88;strokeColor=#36393d;" value="可以复用pc现有实现？" vertex="1">
+          <mxGeometry height="90" width="120" x="460" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

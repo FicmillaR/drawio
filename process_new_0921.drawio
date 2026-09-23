@@ -112,8 +112,8 @@
         <mxCell id="Oyqhy9SOI9qYh9-NI_7O-89" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;tipX=0.917;tipY=-0.167;fillColor=#f8cecc;strokeColor=#b85450;" value="反向映射规则需要重新总结" vertex="1">
           <mxGeometry height="60" width="120" x="10" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="0dgwXT6__gGkW8icdV-p-14" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;span style=&quot;font-size: 16px; white-space: nowrap;&quot;&gt;问题与可能差距：&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;&lt;br&gt;tcl version&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;是否保留旧amps功能&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;SyntaxCheck&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="170" x="30" y="770" as="geometry" />
+        <mxCell id="0dgwXT6__gGkW8icdV-p-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;white-space: nowrap; font-size: 16px;&quot;&gt;问题与可能差距：&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;&lt;br&gt;1. tcl version&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;2. 是否保留旧amps功能&lt;/span&gt;&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;3. SyntaxCheck&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="20" y="855" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
